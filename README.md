@@ -173,3 +173,23 @@ Portfolio (lives impacted, funds raised,) , 2. Individual projects
 
 "Irish start-up secures Euro300k to develop online programme for eating
 disorders
+
+# Agile dude
+
+TODO | WIP | DONE -- what does that mean? Coded/Tested/Integrated?
+
+Unit tests written/Passed/blah
+
+
+Standup meetings -- Time boxed to e.g. 10 min, every 2 hours?
+
+Round robin approach
+
+What did I do that helped he team meet the goal? What will I do next to help team meet the goal
+
+
+craiglarman.com
+
+
+
+
