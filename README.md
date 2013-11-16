@@ -174,12 +174,15 @@ Portfolio (lives impacted, funds raised,) , 2. Individual projects
 "Irish start-up secures Euro300k to develop online programme for eating
 disorders
 
-# Agile dude
+# Agile dude Craig Larman
 
-TODO | WIP | DONE -- what does that mean? Coded/Tested/Integrated?
+## Have an agile whiteboard so team progress/collaboration is easily visible to whole team
+
+TODO | WIP | DONE 
+
+What does "Done" mean? Does it mean it's Coded/Tested/Integrated?
 
 Unit tests written/Passed/blah
-
 
 Standup meetings -- Time boxed to e.g. 10 min, every 2 hours?
 
@@ -188,8 +191,15 @@ Round robin approach
 What did I do that helped he team meet the goal? What will I do next to help team meet the goal
 
 
-craiglarman.com
+[Craig Larman](http://craiglarman.com)
 
 
+## AspectJ blah
 
+Separation of Concerns
 
+Logging is in MANY places in org.apache.tomcat -- it's a *cross-cutting* concern! An *aspect* of the architecture. Logging is scattered throughout the code.
+
+Session expiration? Again, a cross-cutting aspect
+
+AspectJ: separates the aspect & *weaves* it in at compile time.
