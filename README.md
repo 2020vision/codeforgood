@@ -203,3 +203,30 @@ Logging is in MANY places in org.apache.tomcat -- it's a *cross-cutting* concern
 Session expiration? Again, a cross-cutting aspect
 
 AspectJ: separates the aspect & *weaves* it in at compile time.
+
+Very powerful -- e.g. you  can set preconditions on e.g. anything that takes an int assert that it's within bounds 10 < x < 50
+
+Or you can call an `around` which traps the call before you make the call and clip the value and then call the method you trapped with the clipped value.
+
+Defining `pointcut`s enables you to define sortof a bunch of things in the code that match a regex, so that you can use that group of matches later.
+
+NullTester -- you want every method to check that the arguments to those methods are never null
+
+Allows you to separate the concern of output by writing an `aspect Display`
+
+
+	public aspect FakeDie
+	{
+
+	int around():
+		call ( int Die.getFaceValue() ) // traps the call to getFaceValue and make it return somethign else {
+			return 6;
+		}
+	}
+
+can also do compile time testing
+
+"Company policy: Only create objects via a factory" -- create a aspect to catch
+o
+
+
